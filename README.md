@@ -9,9 +9,9 @@ then run the following command
 
 json-server db.json --host < Your IPV4 >
 
-A aplicação tem como objetivo a adição de pontos (`Marker`'s) no mapa. Algo como uma aplicação para a adição dos "meus locais favoritos". 
+The application aims to add points (`Marker`'s) on the map. Something like an application for adding "my favorite places".
 
-A cada clique longo no mapa o usuário deve ser levado a uma tela diferente onde preencherá dados sobre aquele ponto (título, descrição e qualquer outro dado que considerem
-relevante). Ao salvar as alterações (e persistir os dados no JSON Server), a aplicação deve voltar a tela do mapa e apresentar os markers criados.
+At each long click on the map the user must be taken to a different screen where to fill in the data about that point (title, description and any other data they consider
+relevant). When saving as changes (and persisting the data in the JSON server), an application must go back to the map screen and present the created markers.
 
-Ao clicar em um marker existente, a aplicação deve ir para uma tela com detalhes daquele marker e com um opção para removê-lo.
+When clicking on an existing bookmark, an application should go to a screen with details of that bookmark and an option to remove it.
